@@ -26,6 +26,9 @@ html, body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+
   width: 100vw;
   height: 100vh;
 
@@ -40,10 +43,11 @@ html, body {
 .points {
   display: flex;
   justify-content: space-between;
+  align-self: center;
   
   width: 60rem;
+  height: 10%;
 
-  margin: 0 auto;
   padding: 0 2%;
 }
 
